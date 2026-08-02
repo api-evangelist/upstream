@@ -1,7 +1,14 @@
 aid: upstream
 name: Upstream
-description: Upstream is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Upstream is a no-code, full-stack platform for launching and operating
+  DAOs (decentralized autonomous organizations), letting communities create a DAO
+  with a Gnosis multi-signature wallet, DAO contract, and vote delegation contract
+  without technical experience. The platform blends on-chain smart contracts (built
+  on OpenZeppelin, audited by Upshield) with off-chain forums, proposals, polls, and
+  events, and maintains the open-source Fortuna service that indexes ERC20/ERC721/ERC1155
+  transfer events on Ethereum. Upstream is backed by Bloomberg Beta. The company does
+  not currently publish a public developer API; its backend at api.upstreamapp.com
+  is undocumented and product documentation lives at guide.upstreamapp.com.
 url: https://raw.githubusercontent.com/api-evangelist/upstream/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,35 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://upstreamapp.com/static/favicon.png
 tags:
 - Company
+- DAO
+- Web3
+- Blockchain
+- Governance
+- Community
+- Ethereum
+- No-Code
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,21 @@ maintainers:
 common:
 - type: Website
   url: https://upstreamapp.com/
+- type: Documentation
+  url: https://guide.upstreamapp.com/
+- type: LLMsTxt
+  url: llms/upstream-llms.txt
+- type: WellKnown
+  url: well-known/upstream-well-known.yml
+- type: DomainSecurity
+  url: security/upstream-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/upstreamapp
+- type: Support
+  url: https://upstreamapp.com/contact
+- type: Login
+  url: https://upstreamapp.com/auth/login
+- type: TermsOfService
+  url: https://upstreamapp.com/terms
+- type: PrivacyPolicy
+  url: https://upstreamapp.com/privacy
